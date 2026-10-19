@@ -1,5 +1,30 @@
 # CAE (Conversational AI Engine) - Project Overview
 
+## Screenshots
+
+### Home Page
+![Home Page](https://github.com/user-attachments/assets/348d28b4-3676-4b23-8a4e-c965f5c75f9b)
+
+### Graph View
+![Graph view](https://github.com/user-attachments/assets/f535a43a-98e3-4386-a193-1f42d29b9f2e)
+
+### System Architecture
+![System Architecture](https://github.com/user-attachments/assets/2d64f4f3-0cb4-4f3e-9487-c1a54f129d9e)
+
+### Chat Window
+![Chat window-1](https://github.com/user-attachments/assets/d9e27225-8760-4548-85a6-827289ed6013)
+
+![Chat window-2](https://github.com/user-attachments/assets/78a1220e-0a2f-474e-b75a-785301961f30)
+
+### Admin Pages
+![Users tab - admin page](https://github.com/user-attachments/assets/7dac61b2-ee6b-4957-a2fa-5e3fcf5be5fb)
+
+![Architecture images upload - admin page](https://github.com/user-attachments/assets/f0d0e261-ad28-457f-893d-dd0c5ba94c50)
+
+![Documentation validation page - admin](https://github.com/user-attachments/assets/f66d55d3-7d6d-453f-b733-d6851cbd9bd3)
+
+---
+
 ## Documentation
 
 For detailed information about CAE, please refer to:
