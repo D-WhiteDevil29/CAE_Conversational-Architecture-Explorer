@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CONF-001",
+    "title": "ECOM Service Architecture",
+    "content": "The ECOM (E-Commerce) service is built on a microservices architecture. It consists of multiple components: OrderService handles order processing, PaymentService manages payment transactions, and InventoryService tracks product availability. The services communicate via Message Queue and store data in MongoDB. The API Gateway routes external requests to appropriate services.",
+    "source": "confluence",
+    "sourceId": "confluence-ecom-arch",
+    "type": "documentation",
+    "metadata": {
+      "space": "Architecture",
+      "author": "System Admin",
+      "lastModified": "2026-03-10",
+      "tags": ["ECOM", "architecture", "microservices"]
+    }
+  },
+  {
+    "id": "CONF-002",
+    "title": "Kenan System Documentation",
+    "content": "Kenan is the billing and customer management system. It includes BillingEngine for invoice generation, CustomerService for account management, and ReportingService for analytics. Kenan integrates with external payment gateways and uses Oracle database for persistent storage. The system processes billing cycles monthly and supports real-time rating and charging.",
+    "source": "confluence",
+    "sourceId": "confluence-kenan-docs",
+    "type": "documentation",
+    "metadata": {
+      "space": "Systems",
+      "author": "Tech Lead",
+      "lastModified": "2026-03-08",
+      "tags": ["Kenan", "billing", "customer-management"]
+    }
+  },
+  {
+    "id": "CONF-003",
+    "title": "ESOM Integration Guide",
+    "content": "ESOM (Enterprise Service Order Management) orchestrates service provisioning across multiple systems. It connects to Kenan for billing setup, ECOM for e-commerce integration, and NetworkProvisioningService for network activation. ESOM uses workflow engine to manage complex provisioning flows and maintains state in PostgreSQL database. Integration with external systems uses REST APIs and message queues.",
+    "source": "confluence",
+    "sourceId": "confluence-esom-integration",
+    "type": "documentation",
+    "metadata": {
+      "space": "Integration",
+      "author": "Integration Team",
+      "lastModified": "2026-03-05",
+      "tags": ["ESOM", "integration", "provisioning"]
+    }
+  }
+]

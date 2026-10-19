@@ -1,0 +1,62 @@
+[
+  {
+    "id": "JIRA-001",
+    "key": "ECOM-1234",
+    "title": "Implement payment retry mechanism in PaymentService",
+    "content": "As a system, I need to automatically retry failed payment transactions to improve success rate. Implementation should include exponential backoff strategy, maximum retry limit of 3 attempts, and proper error logging. PaymentService should communicate with MessageQueue to notify OrderService of final payment status.",
+    "source": "jira",
+    "sourceId": "jira-ecom-1234",
+    "type": "issue",
+    "metadata": {
+      "project": "ECOM",
+      "issueType": "Story",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "developer@example.com",
+      "created": "2026-03-01",
+      "updated": "2026-03-14",
+      "components": ["PaymentService", "MessageQueue"],
+      "labels": ["payment", "reliability", "retry-logic"]
+    }
+  },
+  {
+    "id": "JIRA-002",
+    "key": "KENAN-5678",
+    "title": "Optimize billing cycle performance",
+    "content": "Billing cycle execution is taking longer than expected. Need to optimize BillingEngine queries and implement batch processing for large customer segments. Consider adding caching layer for frequently accessed customer data. Target: reduce billing cycle time from 4 hours to under 2 hours.",
+    "source": "jira",
+    "sourceId": "jira-kenan-5678",
+    "type": "issue",
+    "metadata": {
+      "project": "KENAN",
+      "issueType": "Performance",
+      "status": "To Do",
+      "priority": "Critical",
+      "assignee": "performance-team@example.com",
+      "created": "2026-02-28",
+      "updated": "2026-03-12",
+      "components": ["BillingEngine", "CustomerService"],
+      "labels": ["performance", "optimization", "billing"]
+    }
+  },
+  {
+    "id": "JIRA-003",
+    "key": "ESOM-9012",
+    "title": "Add support for bundle provisioning in ESOM",
+    "content": "ESOM needs to support provisioning of product bundles (multiple services ordered together). Workflow engine should orchestrate parallel provisioning of bundle components while maintaining transaction consistency. Integration points: ECOM for order details, Kenan for billing setup, NetworkProvisioningService for activation. Include rollback mechanism if any component fails.",
+    "source": "jira",
+    "sourceId": "jira-esom-9012",
+    "type": "issue",
+    "metadata": {
+      "project": "ESOM",
+      "issueType": "Feature",
+      "status": "In Design",
+      "priority": "Medium",
+      "assignee": "architect@example.com",
+      "created": "2026-03-05",
+      "updated": "2026-03-13",
+      "components": ["WorkflowEngine", "ECOM", "Kenan", "NetworkProvisioningService"],
+      "labels": ["provisioning", "bundle", "integration"]
+    }
+  }
+]

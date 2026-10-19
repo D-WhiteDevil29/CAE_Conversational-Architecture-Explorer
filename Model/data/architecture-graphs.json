@@ -1,0 +1,605 @@
+[
+  {
+    "id": "arch-1774443431266",
+    "label": "ECOM-Kenan-ESOM-architecture",
+    "filename": "image-ecom-arch.png",
+    "uploadedAt": "2026-03-25T12:57:11.267Z",
+    "description": "A detailed architecture diagram of a digital channel empowerment system with various components and their relationships.",
+    "components": [
+      {
+        "name": "Bill Analyzer",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "VMB",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "Aurora",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "EMS eShop2",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "SMART UI",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "Presto",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "MFM",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "My Connect",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "TMS",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "Commr. controller.",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "Whatsapp pBot",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "ECOM Retail",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "MTPOS",
+        "type": "service",
+        "layer": "Digital Channel - Empower"
+      },
+      {
+        "name": "Sales and Quotation",
+        "type": "module",
+        "layer": "Sales and Quotation"
+      },
+      {
+        "name": "NGOFT",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Enterprise Customer & Order Management (ECOM)",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Enterprise Integration Layer",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Customer Management",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Order Capture",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Rules Engine",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Product Catalog",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Order Processing",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Bulk Orders",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "User Access Mgmt",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Kenan Connectors",
+        "type": "module",
+        "layer": "Enterprise Customer & Order Management (ECOM)"
+      },
+      {
+        "name": "Workforce & Resource",
+        "type": "module",
+        "layer": "Workforce & Resource"
+      },
+      {
+        "name": "Customer Master (Mirror)",
+        "type": "module",
+        "layer": "CES CRM"
+      },
+      {
+        "name": "Support",
+        "type": "module",
+        "layer": "CES CRM"
+      },
+      {
+        "name": "Case Management",
+        "type": "module",
+        "layer": "CES CRM"
+      },
+      {
+        "name": "Interaction Management",
+        "type": "module",
+        "layer": "CES CRM"
+      },
+      {
+        "name": "CES CRM",
+        "type": "module",
+        "layer": "CES CRM"
+      },
+      {
+        "name": "Kenan Billing",
+        "type": "module",
+        "layer": "Kenan Billing"
+      },
+      {
+        "name": "Catalog",
+        "type": "module",
+        "layer": "Kenan Billing"
+      },
+      {
+        "name": "Payment",
+        "type": "module",
+        "layer": "Kenan Billing"
+      },
+      {
+        "name": "Charging",
+        "type": "module",
+        "layer": "Kenan Billing"
+      },
+      {
+        "name": "Journals",
+        "type": "module",
+        "layer": "Kenan Billing"
+      },
+      {
+        "name": "Billing",
+        "type": "module",
+        "layer": "Kenan Billing"
+      },
+      {
+        "name": "Rating",
+        "type": "module",
+        "layer": "Kenan Billing"
+      },
+      {
+        "name": "NCSOM",
+        "type": "module",
+        "layer": "NCSOM"
+      },
+      {
+        "name": "Mobile Services",
+        "type": "module",
+        "layer": "NCSOM"
+      },
+      {
+        "name": "Enterprise SOM (ESOM)",
+        "type": "module",
+        "layer": "Enterprise SOM (ESOM)"
+      },
+      {
+        "name": "Order Decomposition & Orchestration",
+        "type": "module",
+        "layer": "Enterprise SOM (ESOM)"
+      },
+      {
+        "name": "Network Product Catalog",
+        "type": "module",
+        "layer": "Enterprise SOM (ESOM)"
+      },
+      {
+        "name": "Workflow Mgmt",
+        "type": "module",
+        "layer": "Enterprise SOM (ESOM)"
+      },
+      {
+        "name": "Network and Fulfillment",
+        "type": "module",
+        "layer": "Network and Fulfillment"
+      },
+      {
+        "name": "NSB",
+        "type": "module",
+        "layer": "Network and Fulfillment"
+      },
+      {
+        "name": "AWIS+",
+        "type": "module",
+        "layer": "Network and Fulfillment"
+      },
+      {
+        "name": "TINA",
+        "type": "module",
+        "layer": "Network and Fulfillment"
+      },
+      {
+        "name": "HDM",
+        "type": "module",
+        "layer": "Network and Fulfillment"
+      },
+      {
+        "name": "Paragon",
+        "type": "module",
+        "layer": "Network and Fulfillment"
+      },
+      {
+        "name": "SMOD",
+        "type": "module",
+        "layer": "Network and Fulfillment"
+      },
+      {
+        "name": "elInvoice",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "Collection",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "AmDD",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "ECM",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "ARIBA COUPA PEPPOL",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "RRMS",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "TAS",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "ITPAS",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "RMD",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "CSS",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "WASP",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "ITS",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "COCS",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "Carrier Service",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "UDM",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "URMS",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "SMA/ PFF",
+        "type": "module",
+        "layer": "Carrier Service"
+      },
+      {
+        "name": "DCS Optus",
+        "type": "module",
+        "layer": "Carrier Service"
+      }
+    ],
+    "relationships": [
+      {
+        "from": "Bill Analyzer",
+        "to": "VMB",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "VMB",
+        "to": "Aurora",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Aurora",
+        "to": "EMS eShop2",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "EMS eShop2",
+        "to": "SMART UI",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "SMART UI",
+        "to": "Presto",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Presto",
+        "to": "MFM",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "MFM",
+        "to": "My Connect",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "My Connect",
+        "to": "TMS",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "TMS",
+        "to": "Commr. controller.",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Commr. controller.",
+        "to": "Whatsapp pBot",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Whatsapp pBot",
+        "to": "ECOM Retail",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "ECOM Retail",
+        "to": "MTPOS",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Sales and Quotation",
+        "to": "NGOFT",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "NGOFT",
+        "to": "Enterprise Customer & Order Management (ECOM)",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise Customer & Order Management (ECOM)",
+        "to": "Workforce & Resource",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise Customer & Order Management (ECOM)",
+        "to": "CES CRM",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise Customer & Order Management (ECOM)",
+        "to": "Kenan Billing",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise Customer & Order Management (ECOM)",
+        "to": "NCSOM",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise Customer & Order Management (ECOM)",
+        "to": "Enterprise SOM (ESOM)",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "NCSOM",
+        "to": "Mobile Services",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise SOM (ESOM)",
+        "to": "Order Decomposition & Orchestration",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise SOM (ESOM)",
+        "to": "Network Product Catalog",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Enterprise SOM (ESOM)",
+        "to": "Workflow Mgmt",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Network and Fulfillment",
+        "to": "NSB",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Network and Fulfillment",
+        "to": "AWIS+",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Network and Fulfillment",
+        "to": "TINA",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Network and Fulfillment",
+        "to": "HDM",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Network and Fulfillment",
+        "to": "Paragon",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Network and Fulfillment",
+        "to": "SMOD",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "elInvoice",
+        "to": "Collection",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "Collection",
+        "to": "AmDD",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "AmDD",
+        "to": "ECM",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "elInvoice",
+        "to": "ARIBA COUPA PEPPOL",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "RRMS",
+        "to": "TAS",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "RRMS",
+        "to": "ITPAS",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "RMD",
+        "to": "CSS",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "RMD",
+        "to": "WASP",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "RMD",
+        "to": "ITS",
+        "type": "uses",
+        "label": "Empower"
+      },
+      {
+        "from": "RMD",
+        "to": "COCS",
+        "type": "uses",
+        "label": "Empower"
+      }
+    ],
+    "layers": [
+      "Digital Channel - Empower",
+      "Sales and Quotation",
+      "Enterprise Customer & Order Management (ECOM)",
+      "Enterprise Integration Layer",
+      "Workforce & Resource",
+      "CES CRM",
+      "Kenan Billing",
+      "NCSOM",
+      "Enterprise SOM (ESOM)",
+      "Network and Fulfillment",
+      "Carrier Service"
+    ]
+  }
+]

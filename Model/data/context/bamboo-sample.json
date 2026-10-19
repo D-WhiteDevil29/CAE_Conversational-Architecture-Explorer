@@ -1,0 +1,66 @@
+[
+  {
+    "id": "BAMBOO-001",
+    "planKey": "ECOM-BUILD",
+    "title": "ECOM Build and Deploy Pipeline",
+    "content": "Automated CI/CD pipeline for ECOM services. Build stage compiles code, runs unit tests, and performs static code analysis. Deploy stage includes deployment to DEV environment, automated integration tests, and optional deployment to UAT. Uses Docker containers for consistent deployment across environments. Pipeline triggers on Git commits to main branch.",
+    "source": "bamboo",
+    "sourceId": "bamboo-ecom-build",
+    "type": "build-plan",
+    "metadata": {
+      "project": "ECOM",
+      "status": "SUCCESS",
+      "lastBuild": "2026-03-15T08:30:00Z",
+      "buildNumber": "245",
+      "duration": "12m 34s",
+      "branch": "main",
+      "stages": ["Build", "Test", "Deploy-DEV", "Integration-Test"],
+      "deployedServices": ["OrderService", "PaymentService", "InventoryService"],
+      "environment": "DEV",
+      "tags": ["automated", "docker", "microservices"]
+    }
+  },
+  {
+    "id": "BAMBOO-002",
+    "planKey": "KENAN-DEPLOY",
+    "title": "Kenan Deployment Pipeline",
+    "content": "Deployment pipeline for Kenan system. Stages include database migration scripts validation, application build with Oracle dependencies, unit and integration testing, and staged deployment to UAT environment. Manual approval required before production deployment. Includes automated rollback capability if health checks fail.",
+    "source": "bamboo",
+    "sourceId": "bamboo-kenan-deploy",
+    "type": "build-plan",
+    "metadata": {
+      "project": "KENAN",
+      "status": "SUCCESS",
+      "lastBuild": "2026-03-14T14:20:00Z",
+      "buildNumber": "189",
+      "duration": "18m 45s",
+      "branch": "release/v2.5",
+      "stages": ["Database-Validation", "Build", "Test", "Deploy-UAT"],
+      "deployedServices": ["BillingEngine", "CustomerService", "ReportingService"],
+      "environment": "UAT",
+      "tags": ["oracle", "billing", "staged-deployment"]
+    }
+  },
+  {
+    "id": "BAMBOO-003",
+    "planKey": "ESOM-INTEGRATION",
+    "title": "ESOM Integration Test Pipeline",
+    "content": "End-to-end integration testing pipeline for ESOM. Tests complete provisioning workflows including integration with ECOM, Kenan, and NetworkProvisioningService. Uses test data fixtures and mocked external services. Validates workflow state transitions, error handling, and rollback mechanisms. Runs nightly and on-demand.",
+    "source": "bamboo",
+    "sourceId": "bamboo-esom-integration",
+    "type": "build-plan",
+    "metadata": {
+      "project": "ESOM",
+      "status": "FAILED",
+      "lastBuild": "2026-03-15T02:00:00Z",
+      "buildNumber": "156",
+      "duration": "25m 12s",
+      "branch": "develop",
+      "stages": ["Setup", "Integration-Test-Suite", "Cleanup"],
+      "deployedServices": ["WorkflowEngine", "ESOM-Core"],
+      "environment": "TEST",
+      "failureReason": "Timeout in NetworkProvisioningService mock",
+      "tags": ["integration-test", "e2e", "nightly"]
+    }
+  }
+]

@@ -1,0 +1,82 @@
+# ──────────────────────────────────────────────
+# macOS
+# ──────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+
+# ──────────────────────────────────────────────
+# Node.js
+# ──────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/cache
+.pnp.*
+
+# ──────────────────────────────────────────────
+# Environment & Secrets  ← NEVER commit these
+# ──────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Google Cloud / Vision API service account key
+Model/vision-credentials/
+
+# ──────────────────────────────────────────────
+# LLM Model Files  (can be gigabytes)
+# ──────────────────────────────────────────────
+*.gguf
+*.bin
+*.safetensors
+*.ot
+Model/qwen2.5-model/
+
+# ──────────────────────────────────────────────
+# llama.cpp  (large external C++ repo — use a
+# submodule or document setup steps instead)
+# ──────────────────────────────────────────────
+Model/llama.cpp/
+
+# ──────────────────────────────────────────────
+# Build / Compiled Output
+# ──────────────────────────────────────────────
+UI/dist/
+UI/build/
+Model/dist/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# ──────────────────────────────────────────────
+# Logs & Temporary Files
+# ──────────────────────────────────────────────
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+
+# ──────────────────────────────────────────────
+# IDE / Editor
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ──────────────────────────────────────────────
+# Uploaded / auto-generated data  (large JSON blobs)
+# ──────────────────────────────────────────────
+Model/data/context/extra-docs/uploaded-*.json

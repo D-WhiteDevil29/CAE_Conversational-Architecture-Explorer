@@ -1,0 +1,27 @@
+# Modelfile for Llama 3.1 8B
+# Import local safetensors model into Ollama
+
+FROM ./Llama-3.1-8B
+
+# Template for Llama 3.1 Instruct format
+TEMPLATE """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+{{ .System }}<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"""
+
+# System message
+SYSTEM """You are an expert software architecture assistant for Singtel's systems."""
+
+# Parameters for optimal performance
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+PARAMETER num_ctx 4096
+
+# Stop tokens for Llama 3.1
+PARAMETER stop "<|eot_id|>"
+PARAMETER stop "<|end_of_text|>"
